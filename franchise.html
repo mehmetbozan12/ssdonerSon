@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Barab - Restaurant & Fast Food HTML Template - Contact us</title>
+    <title>SS DÖNER</title>
     <meta name="author" content="Barab">
     <meta name="description" content="Barab - Restaurant & Fast Food HTML Template">
     <meta name="keywords" content="Barab - Restaurant & Fast Food HTML Template">
@@ -246,7 +246,7 @@
 </div> --><!--==============================
 	Header Area
 ==============================-->
-      <header class="th-header header-default">
+    <header class="th-header header-default">
         <div class="header-top d-sm-block d-none">
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
@@ -264,7 +264,7 @@
                             <ul>
                                 <li class="d-none d-xxl-inline-block header-contact"><i class="far fa-phone"></i><a href="tel:26365479875">(0442) 342 00 78</a></li>
                                 <li>
-                                     <div class="th-social">
+                                    <div class="th-social">
                                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                         <a href="https://www.instagram.com/ssdonertr/"><i class="fab fa-instagram"></i></a>
                                         <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
@@ -401,261 +401,239 @@
             </div>
         </div>
     </header>
-    <!--==============================
-    Breadcumb
+
+<!-- Header burada mevcut (senin verdiğin) -->
+
+<!-- ==============================
+     Franchise Başvuru Formu
 ============================== -->
-    <div class="breadcumb-wrapper overflow-hidden " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+<!-- ==============================
+     Franchise Başvuru Sayfası
+============================== -->
+
+<div class="container py-5">
+
+  <!-- Başvuru Kapalı Mesajı -->
+  <div class="alert alert-green text-center p-4 mb-5 shadow-sm rounded" style="background-color: #d4edda; color: #155724;">
+  <h3>Franchise başvurularımız devam etmektedir. <br>Gösterdiğiniz ilgi ve talepleriniz için teşekkür ederiz.</h3>
+   
+</div>
+
+  <!-- Form Kartı -->
+  <div class="form-card p-4 shadow-lg rounded-4 bg-white">
+    <h4 class="text-center mb-4 text-primary fw-bold">Franchise Başvuru Formu</h4>
+    <form>
+      <!-- Kişisel Bilgiler -->
+      <div class="form-section-title mb-3">Kişisel Bilgiler</div>
+      <div class="row g-3 mb-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="Ad - Soyad">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control form-control-lg" placeholder="Mail">
+        </div>
+        <div class="col-md-6">
+          <input type="tel" class="form-control form-control-lg" placeholder="Telefon">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="Şehir">
+        </div>
+      </div>
+
+      <!-- Konum Bilgileri -->
+      <div class="form-section-title mb-3">Konum Bilgileri</div>
+      <div class="row g-3 mb-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="İlgilendiği Şehir">
+        </div>
+        <div class="col-md-6">
+          <select class="form-select form-select-lg">
+            <option selected disabled>Kiralık / Mülk Durumu</option>
+            <option value="kiralik">Kiralık</option>
+            <option value="sahip">Mülk Sahibi</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="Kiralıksa Kira Bedeli">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="Kullanım Alanı (m²)">
+        </div>
+      </div>
+
+      <!-- Yatırım Bilgileri -->
+      <div class="form-section-title mb-3">Yatırım Bilgileri</div>
+      <div class="row g-3 mb-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="Düşündüğünüz Yatırım Miktarı">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control form-control-lg" placeholder="Aylık Gelir Beklentiniz Nedir?">
+        </div>
+      </div>
+
+      <!-- Mesaj -->
+      <div class="form-section-title mb-2">Mesajınız*</div>
+      <div class="mb-3">
+        <textarea class="form-control form-control-lg" rows="4" placeholder="Mesaj..."></textarea>
+      </div>
+
+      <!-- Captcha Fake -->
+      <div class="form-check mb-4">
+        <input class="form-check-input" type="checkbox" id="captcha">
+        <label class="form-check-label" for="captcha">Ben robot değilim</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-lg w-100">Gönder</button>
+    </form>
+  </div>
+</div>
+
+<!-- ==============================
+     CSS Önerisi (Sayfaya ekleyebilirsin)
+============================== -->
+<style>
+.form-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-control, .form-select {
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus, textarea:focus {
+  background-color: #fff;
+  border-color: #0d6efd;
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.2);
+}
+
+</style>
+
+
+<!-- Footer burada mevcut (senin verdiğin) -->
+
+    <footer class="footer-wrapper footer-layout1 space-top">
+
+        <div class="shape-mockup jump d-none d-xxl-block" data-left="0" data-top="0">
+            <img src="assets/img/icon/footer-1-1.png" alt="img">
+        </div>
+        <div class="shape-mockup" data-left="0" data-top="0">
+            <img src="assets/img/icon/footer-1-11.png" alt="img">
+        </div>
+
+        <div class="shape-mockup movingX d-none d-xxl-block" data-left="40%" data-top="0">
+            <img src="assets/img/icon/footer-1-2.png" alt="img">
+        </div>
+        <div class="shape-mockup" data-left="40%" data-top="0">
+            <img src="assets/img/icon/footer-1-22.png" alt="img">
+        </div>
+
+        <div class="shape-mockup jump-reverse d-none d-xxl-block" data-right="0%" data-top="-5%">
+            <img src="assets/img/icon/footer-1-3.png" alt="img">
+        </div>
+        <div class="shape-mockup d-none d-xxl-block" data-right="0%" data-top="0">
+            <img src="assets/img/icon/footer-1-33.png" alt="img">
+        </div>
+
+        <div class="shape-mockup d-none d-xxl-block" data-right="0%" data-bottom="6%">
+            <img src="assets/img/icon/footer-1-4.png" alt="img">
+        </div>
+
+        <div class="shape-mockup d-none d-xxl-block" data-left="0%" data-bottom="4%">
+            <img src="assets/img/icon/footer-1-5.png" alt="img">
+        </div>
+
+
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Bizimle İletişime Geçin</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="index.html">ANASAYFA</a></li>
-                            <li>İletişim</li>
-                        </ul>
-                    </div>
-                </div>
-
+            <div class="footer-logo">
+                <div class="footer-border left"></div>
+                <a href="index.html"><img src="assets/img/logo-white.svg" alt="Barab"></a>
+                <div class="footer-border right"></div>
             </div>
-        </div>
-    </div><!--==============================
-Contact Area  
-==============================-->
-    <div class="space contact-area-3">
-        <div class="container">
-            <div class="row gy-40 gx-80 align-items-center">
-                <div class="col-xl-6 ">
-                    <div class="contact-info-wrap">
-                        <div class="shape-mockup d-xxl-block d-none" data-top="20%" data-left="78%">
-                            <img src="assets/img/icon/contact-info-icon.png" alt="img">
-                        </div>
-                        <div class="mb-30">
-                            <h2 class="sec-title text-anime-style-2 mb-2">İletişim <span class="text-theme">Bilgileri </span></h2>
-                            <p class="box-text">Rahatlayın ve lezzetli yemeklerimizin tadını restoranımızda çıkarın veya yanınıza alıp götürün. Harika lezzet, mükemmel hizmet — her ziyaret, tekrar gelmeye değer bir lezzet deneyimidir.</p>
-                        </div>
-
-                        <div class="contact-feature-wrap">
-                            <div class="contact-feature2">
-                                <div class="box-icon">
-                                    <img src="assets/img/icon/contact-map.svg" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <p class="contact-feature_label">Addres</p>
-                                    <a href="https://www.google.com/maps" class="contact-feature_link">Necmettin Erbakan Blv. Dadaşkent / Erzurum</a>
-                                </div>
-                            </div>
-
-                            <div class="contact-feature2">
-                                <div class="box-icon">
-                                    <img src="assets/img/icon/team_call.svg" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <p class="contact-feature_label">İletişim Bilgilerimiz</p>
-                                    <a href="tel:256654798749" class="contact-feature_link">Tel:(0442) 342 00 78</a>
-                                    <a href="mailto:info@barab.com" class="contact-feature_link">Email:ssdoner@gmail.com</a>
-                                </div>
-                            </div>
-                            <div class="contact-feature2">
-                                <div class="box-icon">
-                                    <img src="assets/img/icon/contact-map.svg" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <p class="contact-feature_label">Çalışma Saatlermiz</p>
-                                    <span class="contact-feature_link">Pazartesi-Pazar:10.30-03.00</span>
-                                    <span class="contact-feature_link">Haftanın hergünü hizmetinizdeyiz </span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6">
-                    <!--==============================
-Contact Area  
-==============================-->
-                    <div class="contact-form-v2 contact-page-form">
-                        <h2 class="title mt-n3 fw-semibold mb-30">Bizimle İletişime Geçin</h2>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Adınız-Soyadınız">
-                                    <i class="fal fa-user"></i>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="E-posta">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="form-group col-md-12 style-border">
-                                    <select name="subject" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Yapmak İstediğiniz İşlemi Seçiniz</option>
-                                        <option value="Personal Training">FRANCHISE</option>
-                                        <option value="Gym & Fitness Training">İstek ve  Öneri</option>
-                                        <option value="Basic Yoga">Diğer</option>
-                                        <!-- <option value="Muscle Building">Muscle Building</option> -->
-                                    </select>
-                                </div>
-                                <div class="col-12 form-group">
-                                    <textarea placeholder="Mesajınızı yaz...." class="form-control"></textarea>
-                                    <i class="fal fa-pencil"></i>
-                                </div>
-                                <div class="form-btn col-12">
-                                    <button class="th-btn style2 style-radius">Gönder</button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--==============================
-Restaurant location Area  
-==============================-->
-    <section class="restaurant-location-sec-1 overflow-hidden" id="restaurant-location-sec">
-        <div class="shape-mockup d-none d-xxl-block jump-reverse" style="top: 26%; left: 3%;">
-            <img src="assets/img/shape/location-left.png" alt="img">
-        </div>
-        <div class="shape-mockup d-none d-xxl-block jump-reverse" style="bottom: 10%; left: 40%;">
-            <img src="assets/img/shape/location-right.png" alt="img">
-        </div>
-        <div class="container">
-            <div class="row gy-4 justify-content-center">
-                <div class="col-xl-6">
-                    <div class="title-area location-content">
-                        <span class="sub-title style-2 text-anime-style-1">SS Döner Dadaşkent Lokasyonumuz</span>
-                        <h2 class="sec-title text-anime-style-2">Restoranımıza Bekleriz</h2>
-                        <p class="box-text pe-xxl-5 ps-xxl-5 text-anime-style-3">Necmettin Erbakan Blv. Dadaşkent / Erzurum</p>
-                        <div class="line"></div>
-                        <div class="opening ow fadeinup" data-wow-delay=".3s">
-                            <p>Pazartesi - pazar: 10:30 – 03:00</p>
-            
-                        </div>
-                        <div class="th-social ow fadeinup" data-wow-delay=".5s">
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="map-location">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12240.037266985453!2d41.17774912924488!3d39.91880770341041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e59df0712b141%3A0xaccde37c31c89dac!2zU1MgRMOWTkVSIERBREHFnktFTlQ!5e0!3m2!1str!2str!4v1759566520788!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                   </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--==============================
-	Footer Area
-==============================-->
-    <footer class="footer-wrapper footer-default overflow-hidden">
-        <div class="shape-mockup d-none d-xxl-block wow fadeinup" data-top="22%" data-left="0%">
-            <img src="assets/img/footer/footer-left.png" alt="img">
-        </div>
-        <div class="shape-mockup moving d-none d-lg-block" data-top="10%" data-right="4%">
-            <img src="assets/img/shape/footer-top.png" alt="img">
-        </div>
-
-        <div class="footer-top">
-            <div class="container">
-                <div class="row gy-40 align-items-center justify-content-center">
-                    <div class="col-xl-12">
-                        <div class="subscribe-box">
-                            <h2 class="footer-top_title">Let’s Talk With Us</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="widget-area">
-            <div class="container">
-                <div class="row gy-4 justify-content-center">
-                    <div class="col-md-12 col-lg-6 col-xl-4">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Contact Info</h3>
-                            <div class="icon">
-                                <img src="assets/img/icon/f-title-icon.png" alt="icon">
-                            </div>
-                            <div class="th-widget-contact">
-                                <div class="info-box">
-                                    <p class="info-box_text">
-                                        <span>Phone:</span>
-                                        <a href="tel:256369854789" class="info-box_link">+256 3698 54789</a>
-                                        <a href="tel:16354786985" class="info-box_link">+16354786985</a>
-                                    </p>
-                                </div>
-                                <div class="info-box">
-                                    <p class="info-box_text">
-                                        <span>Email:</span>
-                                        <a href="mailto:info@barab.com" class="info-box_link">info@barab.com</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-6 col-xl-4">
+            <div class="widget-area">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-sm-6">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Quick Links</h3>
-                            <div class="icon">
-                                <img src="assets/img/icon/f-title-icon.png" alt="icon">
-                            </div>
+                            <h3 class="widget_title">Useful Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="service.html">Our Services</a></li>
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">Home</a></li>
+                                    <li><a href="contact.html">Our History</a></li>
+                                    <li><a href="contact.html">Our Services</a></li>
+                                    <li><a href="blog.html">Favorite Place</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.html">Privacy policy</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-6 col-xl-4">
-                        <div class="widget widget_download footer-widget">
-                            <h4 class="widget_title">Download</h4>
-                            <div class="icon">
-                                <img src="assets/img/icon/f-title-icon.png" alt="icon">
+                    <div class="col-xl-4 col-lg-4 col-sm-6">
+                        <div class="widget widget_info footer-widget">
+                            <div class="opening-time">
+                                <div class="event-info-mask" data-mask-src="assets/img/bg/footer-1-open-border.png"></div>
+                                <div class="content-wrap">
+                                    <div class="icon"><i class="fa-light fa-clock"></i></div>
+                                    <p class="top-text">We’re currently open!</p>
+                                    <p class="opening-text">Opening Hours: 8:00AM To 10:00PM</p>
+                                    <p class="opening-text">Opening Hours: 8:00AM To 10:00PM</p>
+                                </div>
                             </div>
-                            <div class="download-widget-wrap">
-                                <a href="https://www.apple.com/app-store/">
-                                    <img src="assets/img/icon/f-app-store.png" alt="img">
-                                </a>
-                                <a href="https://play.google.com/store/games?device=windows">
-                                    <img src="assets/img/icon/f-google-store.png" alt="img">
-                                </a>
+                            <div class="th-social">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-sm-6">
+                        <div class="widget widget_nav_menu footer-widget favorite-menu">
+                            <h3 class="widget_title">Favorite Menus</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a href="contact.html">Burgers</a></li>
+                                    <li><a href="contact.html">Crispy Flavors</a></li>
+                                    <li><a href="contact.html">Breakfast Menu</a></li>
+                                    <li><a href="contact.html">Desserts</a></li>
+                                    <li><a href="contact.html">Kids Menus</a></li>
+                                    <li><a href="contact.html">Beverages</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="copyright-wrap">
             <div class="container">
-                <div class="copy-right-content">
-                    <div class="copyright-text-wrap">
-                        <p class="copyright-text">
-                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="index.html">Barab</a>. All Rights Reserved.
+                <div class="row gy-3 align-items-center">
+                    <div class="col-lg-6">
+                        <p class="copyright-text">Copyright
+                            <i class="fal fa-copyright"></i> 2025 <a href="index.html">Barab </a> All Rights Reserved.
                         </p>
                     </div>
-                    <div class="footer-bottom-logo">
-                        <a href="index.html">
-                            <img src="assets/img/logo.svg" alt="img">
-                        </a>
-                    </div>
-                    <div class="footer-card">
-                        <img src="assets/img/icon/f-card.png" alt="img ">
+                    <div class="col-lg-6 text-center text-lg-end">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="about.html">Privacy Policy</a></li>
+                                <li><a href="about.html">Terms &amp; Condition</a></li>
+                                <li><a href="about.html">Support policy</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </footer>
+
 
     <!--********************************
 			Code End  Here 
@@ -667,6 +645,7 @@ Restaurant location Area
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
         </svg>
     </div>
+
 
     <!--==============================
     All Js File
@@ -701,6 +680,7 @@ Restaurant location Area
 
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
